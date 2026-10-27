@@ -4,8 +4,8 @@
 
 #define MyAppName "mk_ssh"
 #define MyAppVersion "1.0.0"
-#define MyAppPublisher "markmay76"
-#define MyAppURL "https://github.com/markmay76/mk_ssh"
+#define MyAppPublisher "mythicalkingdom"
+#define MyAppURL "https://github.com/mythicalkingdom/mk_ssh"
 #define MyAppExeName "mk_ssh.exe"
 
 [Setup]
@@ -19,15 +19,14 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=LICENSE.txt
 OutputDir=dist\installer
 OutputBaseFilename=mk_ssh_setup
 SetupIconFile=mk_ssh.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
-ArchitecturesInstall=64
-ArchitecturesAllowed=x64
+ArchitecturesInstallIn64BitMode=x64os
+ArchitecturesAllowed=x64os
 PrivilegesRequired=admin
 UsePreviousAppDir=no
 DisableDirPage=yes
