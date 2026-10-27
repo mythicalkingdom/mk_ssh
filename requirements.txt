@@ -1,0 +1,5 @@
+# Core dependencies
+# Note: This app primarily uses the Python Standard Library.
+# The following are required for the build process and development.
+
+pyinstaller==6.11.0

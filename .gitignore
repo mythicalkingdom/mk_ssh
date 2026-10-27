@@ -1,0 +1,8 @@
+build/
+dist/
+*.spec
+.DS_Store
+__pycache__/
+*.pyc
+*.AppImage
+dist/installer/
